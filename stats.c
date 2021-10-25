@@ -12,5 +12,9 @@ int ledAlertCallCount = 0;
 
 void check_and_alert(float maxThreshold, alerter_funcptr alerters[], struct Stats compute_statistics)
 {
+ return(s.max,s.average,
+}
+void compute_statistics(const float* numberset, int setlength);
+{
  
 }
