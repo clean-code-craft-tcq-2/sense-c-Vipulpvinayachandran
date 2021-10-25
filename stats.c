@@ -2,9 +2,9 @@
 
 struct stats
 {
- int average = 0;
- int min = 0;
- int max = 0;
+ float average = 0;
+ float min = 0;
+ float max = 0;
 }computedStats;
 
 
