@@ -1,14 +1,13 @@
 #include "stats.h"
 
-struct Stats compute_statistics(const float* numberset, int setlength) {
-    struct Stats s;
-}
-
 struct s
 {
  int average = 0;
  int min = 0;
  int max = 0;
+};
+struct Stats compute_statistics(const float* numberset, int setlength) {
+    struct Stats s;
 }
     
 int emailAlertCallCount = 0;
